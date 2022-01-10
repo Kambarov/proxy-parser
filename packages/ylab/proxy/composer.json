@@ -1,0 +1,22 @@
+{
+    "name": "ylab/proxy",
+    "description": "Proxy - the package to parse the list of vpns",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shoakromkambarov",
+            "email": "Kambarov0209@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ylab\\Proxy\\": "packages/ylab/proxy/src"
+        },
+        "classmap": [
+            "database/migrations"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
